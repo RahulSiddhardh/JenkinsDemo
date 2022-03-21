@@ -6,7 +6,7 @@ from Program1 import summation
 
 class TestSum(unittest.TestCase):
       def test_list_int(self):
-            data = [24, 6]
+            data = [2, 6]
             result = summation(data)
             self.assertEqual(result, 30)
       
